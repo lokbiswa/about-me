@@ -1,18 +1,43 @@
 body{
     background-color: black;
+    
 }
 .clearFix{
     clear:both;
 }
 #container{
+    font-family: Asap;
     background-color:white;
-    height: 50%;
+    width: 50%;
+    margin:auto;
     margin-top: 20px;
     padding: 20px;
 }
 .left-col{
     float: left;
+    width:50%;
+}
+a {
+    text-decoration: none;
+    border-style: solid;
+    border-width:thin;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+
+}
+h5 {
+    margin-bottom:30px;
+}
+img{
+    width:300px;
+    height:auto;
+}
+h1 {
+   color:#A64AC9; 
 }
 .right-col{
     float: right;
+}
+p{
+    font-size:13px;
 }
