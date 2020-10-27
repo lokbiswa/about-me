@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.clearFix{
+    clear:both;
+}
+#container{
+    background-color:white;
+    height: 50%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.left-col{
+    float: left;
+}
+.right-col{
+    float: right;
+}
