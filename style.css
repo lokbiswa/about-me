@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    
+    font-family:Asap;
 }
-.clearFix{
+#clearFix{
     clear:both;
 }
 /*CSS Box Model is the idea that al the HTML tags are viewed as boxes. 
@@ -12,40 +12,24 @@ A CSS Box is consist of margin, borders, padding, and the content that is insid.
 Each of the layer can be cahnged to shape the page. For example, lets the content, which can be text and images is placed into a div, 
 then we can add padding to clear area around it. If we add border then padding will clear the area between the content and the border. 
 Next, margin can be used to clear area outside the border. All of this together is the CSS Box Model and it helps in placing contect whever we want int the webpage.*/
-#container{
-    font-family: Asap;
+main{
     background-color:white;
-    width: 50%;
-    margin:auto;
-    margin-top: 20px;
-    padding: 20px;
+    padding:20px;
+    margin:20px 40px 20px 40px
 }
-.left-col{
+section.header{
     float: left;
-    width:50%;
-    height:auto;
+    width: 58%;
 }
-a.githubLink {
-    text-decoration: none;
-    border-style: solid;
-    border-width:thin;
-    padding: 10px 5px 10px 5px;
-    border-radius: 5px;
-
-}
-h5 {
-    margin-bottom:30px;
+figure.picture{
+    float: right;
+    width: 30%;
 }
 img{
-    width:300px;
-    height:auto;
-}
-h1 {
-   color:#A64AC9; 
-}
-.right-col{
+    width:80%;
     float: right;
 }
-p{
-    font-size:13px;
+section article{
+    margin-top:200px;
+    text-align: left;
 }
